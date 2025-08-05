@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+hr {color: #00c6ff;
+  width: 1200px;
+height: 3px;
+border: none;
+background-color: #00c6ff;
+margin-top: 10px;
+margin: auto;}
+
+.text-center {
+  text-align: center;}
+  h1{
+  font-family: "Kanit", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+body, html{
+  background-color: black;
+  color: white;
+}
+.box, .a12 {margin: 3px;
+width: 115px;height: 115px;
+color: white;
+text-align: center;
+font-weight: 100;
+font-size: 32px;
+justify-content: center;
+display: flex;
+align-items: center;
+border: 1px orange solid;
+box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+border: 1px solid rgba(255, 255, 255, 0.2);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+position: relative;
+
+}
+.a12 {background-color: #959b31;}
+.he {background-color: #7d5800;}
+.li {background-color: #851c00;}
+.be {background-color: #0053bf;}
+.b {background-color: #959b31;}
+.c {background-color: #7d5800;}
+.n {background-color: #851c00;}
+.o {background-color: #0053bf;}
+.f {background-color: #0053bf;}
+.ne {background-color: #3e5701;}
+.na {background-color: #959b31;}
+.mg {background-color: #7d5800;}
+.al {background-color: #851c00;}
+.si {background-color: #0053bf;}
+.p {background-color: #0053bf;}
+.s {background-color: #0053bf;}
+.cl {background-color: #39bf00;}
+.ar {background-color: #3e5701;}
+.k {background-color: #959b31;}
+.ca {background-color: #7d5800;}
+.sc {background-color: #851c00;}
+.ti {background-color: #0053bf;}
+.v {background-color: #0053bf;}
+.cr {background-color: #0053bf;}
+.mn {background-color: #0053bf;}
+.fe {background-color: #39bf00;}
+.co {background-color: #3e5701;}
+.ni {background-color: #959b31;}
+.cu {background-color: #7d5800;}
+.zn {background-color: #0053bf;}
+.ga {background-color: #0053bf;}
+.ge {background-color: #0053bf;}
+.as {background-color: #0053bf;}
+.se {background-color: #39bf00;}
+.br {background-color: #3e5701;}
+.kr {background-color: #959b31;}
+
+
+.row {display: flex;
+flex-direction: row;
+justify-content: left;
+margin-left: 95px; }
+
+.a1 {visibility: hidden;}
+.box {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+    z-index: 10;
+}
+
+.atomic-number {
+  position: absolute;
+  top: 5px; left: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.atomic-mass {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  font-size: 10px;}
+
+  .name {
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 15px;
+}
+.metal-type { position: absolute;
+bottom: 5px;
+left: 0;
+right: 0;
+text-align: center;
+font-size: 10px;
+}
+.footer {
+  position: relative;
+  border-top: #00DBAC solid;
+  bottom: 0;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  background-color: #0059D6;
+  color: #fff;
+  font-size: 14px;
+}
+footer a i {
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+footer a:hover i {
+  color: #00f0e0; /* hover effekti üçün */
+}
+.li1 {
+  position: absolute;
+  text-align: left;
+  bottom: 65px;
+  left: 280px;
+}
+.li2 {
+  position: absolute;
+  text-align: left;
+  bottom: 60px;
+  left: 1250px;
+}
+.li3{
+  position: absolute;
+  text-align: left;
+  bottom: 60px;
+  left: 1600px;
+}
+.footer a h5 {
+  color: white;
+  transition: color 0.3s ease;
+  text-decoration: none ;
+}
+
+.footer a:hover h5 {
+  color: #91C8D9;
+  cursor: pointer;
+  text-decoration: none;
+}
